@@ -43,4 +43,4 @@ app.delete("/api/customers/:id", (req, res) => {
     const index = customers.indexOf(customer);
     customers.splice(index, 1);
     res.send(customer);
-  });
+});
